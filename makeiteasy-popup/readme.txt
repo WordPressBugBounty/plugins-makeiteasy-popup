@@ -3,7 +3,7 @@ Contributors:      lovor
 Donate link:       https://buymeacoffee.com/lovro
 Tags:              popup, pop-up, modal, dialog, block
 Tested up to:      7.1
-Stable tag:        1.4.0
+Stable tag:        1.4.2
 License:           LGPLv3
 License URI:       https://www.gnu.org/licenses/lgpl-3.0.html
 
@@ -79,6 +79,15 @@ Post them here, and I’ll answer them.
 
 == Changelog ==
 
+= 1.4.2 =
+
+Completely removed enlarging too small popup, as it was interfering with late loading content.
+
+= 1.4.1 =
+
+Updated all dependencies.
+Solved issue with enlarging popup too much when it was too small.
+
 = 1.4.0 =
 
 Added "open on exit intent" feature. Updated dependencies.
@@ -144,6 +153,11 @@ Improved layout for disabled popup. Improved restoring modality type when choosi
 3. Add integration with some of more popular marketing tools.
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+
+Updated all packages.
+Fixed problem when too small popup was enlarged to "standard dimensions" - i.e. theme content width.
 
 = 1.4.0 =
 
